@@ -7,12 +7,12 @@ pageTemplate= '''<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
   <meta content="text/html; charset=ISO-8859-1"
  http-equiv="content-type">
   <title>Meal Planner App </title>
-  <h1>Welcome to our meal planner application!</h1>
+  <h1>Welcome to our {mealtime} planner application!</h1>
 </head>
 <body>
 
-<h2>Lets have some {mealtime}!</h2>
-<p>Put some mealtime specific greeting here </p>
+<h2>Lets get some food!</h2>
+<p> {mealtime_message} </p>
 
 <h2>Protein </h2>
 <p>Dish: to be spit out from input -- {meat} </p>
@@ -44,6 +44,12 @@ pageTemplate= '''<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 def main():
     #VARIABLES TO BE USED IN FUNCTIONS
     mealtime = raw_input("Enter breakfast, lunch, or dinner: ")
+    if mealtime[0].lower() == 'b':
+        mealtime_message = "Breakfast is for the boys"
+    if mealtime[0].lower() == 'l':
+        mealtime_message = "Lunch is for the ladies"
+    if mealtime[0].lower() == 'd':
+        mealtime_message = "Dinner is for the dudes"
     meat = raw_input("Enter your preferred meat, or 0 for meatless: ")
     ethnic = raw_input("Enter your preferred station, or 0 for any: ")
     veggies = raw_input("Enter your preffered vegetable, or 0 for any: ") 
