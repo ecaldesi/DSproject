@@ -2,12 +2,11 @@
 import string
 
 pageTemplate= '''<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+<html style="background-color:powderblue">
 <head style="background-color:powderblue">
-  <meta content="text/html; charset=ISO-8859-1"
- http-equiv="content-type">
-  <title>Meal Planner App </title>
-  <h1 style="color:red">Welcome to our {mealtime} planner application!</h1>
+<meta content="text/html; charset=ISO-8859-1"http-equiv="content-type">
+<title>Meal Planner App </title>
+<h1 style="color:red">Welcome to our {mealtime} planner application!</h1>
 </head>
 <body style="background-color:powderblue">
 
