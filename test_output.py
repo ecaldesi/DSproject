@@ -32,9 +32,7 @@ pageTemplate= '''<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <h2 style="color:blue" >Results </h2>
 <p style="color:green" >Dishes: {meat}, {fruit}, {veggies}, and a {drink} </p>
 <p style="color:green" >Calories: too many </p>
-
-
-
+<link href="https://www.google.com" title="ayy">
 
 </body>
 </html>
