@@ -1,0 +1,41 @@
+<<<<<<< HEAD
+Elisabetta Caldesi
+3/8/17
+
+Total out of 40 points.
+
+Main goal: make a general layout template for the different classes and use inheritance and coomposition to link them. 
+
+15 points: base classes are made for North Dining Hall and South Dining Hall with appropriate members and functions.
+
+10 points: there are multiple classes that use hineritance from the two dining hall classes. The set up is correct, the members are correctly used. The classes handle the meal choice, and the different meal choices. 
+
+10 points: there is an algorithm that calculates the calories of each food for dining hall quantity based on the information found on the Internet (because the dining hall menus don't display the calories). Develop a way to read in from a file and add those values as a member of each food class. 
+
+5 points: program compiles correctly.
+=======
+Sophie Lancaster
+March 6, 2017
+_______________________________________________________________________
+
+TOTAL OUT OF 40 POINTS
+_______________________________________________________________________
+
+Main Goal: Figure out how to get the necessary data from the websites 
+and convert it to a form that can be used by the program. 
+_______________________________________________________________________
+
+Part 1 (5 points): Find the necessary websites for retrieving the 
+desired data.
+
+Part 2 (20 points): Using the source code from the websites found in 
+part 1 figure out which regular expressions can be used to retrieve the 
+desired data.
+
+Part 3 (10 points): Write another regular expression that stores the 
+data found in an easy-to-read and easy-to-use way.
+
+Part 4 (5 points): Combine the regular expressions into a shell script 
+that will execute and store all of the data in a text file (this will 
+be the executable).    
+>>>>>>> 270039a399346eb2176b207366d66ba05109e889
