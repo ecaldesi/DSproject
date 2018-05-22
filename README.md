@@ -9,22 +9,22 @@ Download the API Client library (this was tested on MAC OS) using the following 
 - Download the Google API client using the following command: sudo pip install --upgrade google-api-python-client
 - Clone our project repository using the following command: git clone https://ecaldesi@gitlab.com/ecaldesi/cse20312.git
 - After successfully cloning the repository make sure the following files are in your folder:
-  Script.cpp <br />
-  createHTML.py <br />
-  webLoader.py <br />
-  googleImg.py <br />
-  SDHdinner.txt <br />
-  SDHlunch.txt <br />
-  SDHbreakfast.txt <br />
-  callGoogleImg.py <br />
+  - Script.cpp
+  - createHTML.py
+  - webLoader.py
+  - googleImg.py
+  - SDHdinner.txt
+  - SDHlunch.txt
+  - SDHbreakfast.txt
+  - callGoogleImg.py
 - Run the Makefile by using the following command: make
 - Insert meal preference when prompted using the following input options:
   - B → breakfast
   - L → lunch
   - D → dinner
-- Enter food preferences in CSV format when prompted. Ex.) corn,chicken,rice
+- Enter food preferences in CSV format when prompted. Ex.) corn,chicken,rice <br />
   NOTE: Make sure there are no spaces in the input <br />
-  NOTE: Max of 5 inputs <br />
+  NOTE: Max of 5 inputs
 - Enter total desired calorie count for meal as a single number when prompted. Ex.) 500
 
 If you are running the program on your a local machine, the output will be an HTML page that opens on your preferred browser.<br />
