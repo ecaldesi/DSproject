@@ -7,7 +7,7 @@ USAGE
 Download the API Client library (this was tested on MAC OS) using the following instructions:
 - Download pip installer in Terminal using the following command: `sudo easy_install pip`
 - Download the Google API client using the following command: `sudo pip install --upgrade google-api-python-client`
-- Clone our project repository using the following command: `git clone https://github.com/ecaldesi/DSproject`` 
+- Clone our project repository using the following command: `git clone https://github.com/ecaldesi/DSproject` 
 - After successfully cloning the repository make sure the following files are in your folder:
   - script.cpp
   - createHTML.py
