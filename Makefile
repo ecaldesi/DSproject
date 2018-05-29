@@ -10,7 +10,7 @@ TARGETS=	script \
 all:		$(TARGETS)
 
 test:		script webLoader.py
-		@echo "Testing..."        
+		@echo "Testing..."
 		@./webLoader.py
 
 script:		script.o
@@ -23,4 +23,4 @@ script.o:       script.cpp
 
 clean:
 		@echo "Cleaning..."
-		@rm -f $(TARGETS) *.o 
+		@rm -f $(TARGETS) *.o
