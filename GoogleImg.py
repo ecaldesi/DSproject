@@ -8,10 +8,10 @@ import string
 
 search_field=""
 
-from apiclient.discovery import build
+from lib.apiclient.discovery import build
 
-# sets the variable search_field to the name of the food item 
-for line in sys.stdin: 
+# sets the variable search_field to the name of the food item
+for line in sys.stdin:
 	search_field = line.strip()
 
 # uses the apiclient library to find the picture
