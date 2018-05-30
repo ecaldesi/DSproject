@@ -7,16 +7,7 @@ USAGE
 Download the API Client library (this was tested on MAC OS) using the following instructions:
 - Download pip installer in Terminal using the following command: `sudo easy_install pip`
 - Download the Google API client using the following command: `sudo pip install --upgrade google-api-python-client`
-- Clone the project repository using the following command: `git clone https://github.com/ecaldesi/DSproject` 
-- After successfully cloning the repository make sure the following files are in your folder:
-  - script.cpp
-  - createHTML.py
-  - webLoader.py
-  - googleImg.py
-  - SDHdinner.txt
-  - SDHlunch.txt
-  - SDHbreakfast.txt
-  - callGoogleImg.py
+- Clone the project repository using the following command: `git clone https://github.com/ecaldesi/DSproject`
 - Run the Makefile by using the following command: make
 - Insert meal preference when prompted using the following input options:
   - B → breakfast
